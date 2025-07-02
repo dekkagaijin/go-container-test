@@ -49,6 +49,7 @@ A modern Golang web server built with Chi router that provides weather informati
 ### Core Endpoints
 
 #### GET /weather?zip_code=XXXXX
+
 #### GET /api/v1/weather?zip_code=XXXXX
 
 Returns weather information for the specified zip code.
@@ -71,6 +72,7 @@ Returns weather information for the specified zip code.
 ```
 
 #### GET /health
+
 #### GET /api/v1/health
 
 Returns server health status.
