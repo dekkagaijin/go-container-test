@@ -1,3 +1,4 @@
+# Use a golang build image with known vulnz...
 FROM golang:1.24.1-alpine AS builder
 WORKDIR /app
 
